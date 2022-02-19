@@ -1,0 +1,34 @@
+p {
+  font-family: Arial;
+  font-size: 20px;
+  color: #7073ff;
+  font-weight: bolder;
+}
+
+body {
+  background: lightgrey;  
+}
+
+.verseandbutton {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 90%;
+  background: #7bf277;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background: #7073ff;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
